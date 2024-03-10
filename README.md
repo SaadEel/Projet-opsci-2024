@@ -12,9 +12,9 @@ EL HAMRI Saad (Numéro étudiant : 28715042)
 
 1/ Postgres sur le port 5432 et sur le localhost
 
-2/ Strapi sur le port 1337 
+2/ Strapi sur le port 1337 et sur le localhost
 
-3/ Le frontend sur le port 5173
+3/ Le frontend sur le port 5173 et sur le localhost
 
 
 
