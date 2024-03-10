@@ -1,4 +1,4 @@
-*EL HAMRI Saad (Numéro étudiant : 28715042)*
+EL HAMRI Saad (Numéro étudiant : 28715042)
 
 ## Informations de l'application :
 
@@ -15,3 +15,8 @@
 2/ Strapi sur le port 1337 
 
 3/ L'API sur le port 5173
+
+
+
+
+*Le fichier .gitignore contient le fichier .env du projet*
