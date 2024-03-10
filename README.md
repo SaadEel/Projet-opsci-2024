@@ -1,9 +1,5 @@
 *EL HAMRI Saad (Numéro étudiant : 28715042)*
 
-*SETIA Joshua (Numéro étudiant : 21113851)*
-
-
-
 ## Informations de l'application :
 
 **Adresse IP** : 127.0.0.1
