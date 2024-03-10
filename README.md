@@ -4,7 +4,7 @@ SETIA Joshua (Numéro étudiant : )
 
 
 
-Informations de l'application :
+## Informations de l'application :
 
 Adresse IP : 127.0.0.1
 
