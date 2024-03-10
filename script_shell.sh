@@ -12,9 +12,6 @@ POSTGRES_PASSWORD="safepassword" # Mot de passe PostgreSQL
 echo "Création de la base de données PostgreSQL..."
 sudo docker run -dit -p 5432:5432 -e POSTGRES_PASSWORD=safepassword -e POSTGRES_USER=strapi --name strapi-pg postgres
 
-# Changement du répertoire vers le projet Strapi
-cd $STRAPI_DIR
-
 # Installation des dépendances
 echo "Installation des dépendances yarn..."
 yarn install
@@ -22,6 +19,9 @@ yarn install
 # Configuration de Strapi
 echo "Configuration de Strapi"
 yarn create strapi-app ${nom_projet}
+
+# Changement du répertoire vers le projet Strapi
+cd $STRAPI_DIR
 
 # Création d'une image docker de Strapi après avoir créé un Dockerfile
 echo "Création d'une image docker de Strapi..."
