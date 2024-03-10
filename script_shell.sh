@@ -23,6 +23,8 @@ yarn create strapi-app Projet_Saad
 # Changement du répertoire vers le projet Strapi
 cd $STRAPI_DIR
 
+# Création de dockerfile et docker-compose
+
 # Création d'une image docker de Strapi après avoir créé un Dockerfile
 echo "Création d'une image docker de Strapi..."
 docker compose up
