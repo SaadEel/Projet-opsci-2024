@@ -14,7 +14,7 @@ EL HAMRI Saad (Numéro étudiant : 28715042)
 
 2/ Strapi sur le port 1337 
 
-3/ L'API sur le port 5173
+3/ Le frontend sur le port 5173
 
 
 
