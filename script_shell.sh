@@ -18,7 +18,7 @@ yarn install
 
 # Configuration de Strapi
 echo "Configuration de Strapi"
-yarn create strapi-app ${nom_projet}
+yarn create strapi-app Projet_Saad
 
 # Changement du répertoire vers le projet Strapi
 cd $STRAPI_DIR
@@ -49,3 +49,8 @@ yarn build
 # Lancement de l'API de strapi
 echo "Lancement de l'API de strapi..."
 yarn dev
+
+# Arrêt de Postgres
+echo "Arrêt de postgres..."
+docker stop strapi-pg
+
