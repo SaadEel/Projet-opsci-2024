@@ -6,10 +6,16 @@
 
 ## Informations de l'application :
 
-Adresse IP : 127.0.0.1
+**Adresse IP** : 127.0.0.1
 
-Nom de la machine : seh22
+**Nom de la machine** : seh22
 
-Noms de conteneurs : strapi-pg (Image de postgres), Projet_Saad (Image de strapi:latest)
+**Noms de conteneurs** : strapi-pg (Image de postgres), Projet_Saad (Image de strapi:latest)
 
-Adresse et ports des éléments de l'application : Postgres sur le port 5432 et sur le localhost, Strapi sur le port 1337, l'API sur le port 5173
+**Adresse et ports des éléments de l'application** : 
+
+1/ Postgres sur le port 5432 et sur le localhost
+
+2/ Strapi sur le port 1337 
+
+3/ L'API sur le port 5173
